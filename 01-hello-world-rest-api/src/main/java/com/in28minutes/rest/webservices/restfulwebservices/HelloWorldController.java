@@ -16,7 +16,7 @@ public class HelloWorldController {
 	public HelloWorldBean helloWorldBean() {
 		// throw new RuntimeException("Some Error has Happened! Contact Support at
 		// ***-***");
-		return new HelloWorldBean("Hello World");
+		return new HelloWorldBean("Hello World - Updated for JIB Plugin!");
 	}
 
 	/// hello-world/path-variable/in28minutes
