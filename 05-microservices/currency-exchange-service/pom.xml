@@ -6,7 +6,7 @@
 
 	<groupId>com.in28minutes.microservices</groupId>
 	<artifactId>05-currency-exchange-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT-DCR</version>
 	<packaging>jar</packaging>
 	<name>currency-exchange-service</name>
 
@@ -55,9 +55,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
- 
-
-<!--  
+  
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
@@ -67,7 +65,6 @@
 			<groupId>org.springframework.amqp</groupId>
 			<artifactId>spring-rabbit</artifactId>
 		</dependency>
--->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

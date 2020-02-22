@@ -6,7 +6,7 @@
 
 	<groupId>com.in28minutes.microservices</groupId>
 	<artifactId>06-currency-conversion-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT-DCR</version>
 	<packaging>jar</packaging>
 	<name>currency-conversion-service</name>
 
@@ -58,10 +58,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
- 
- 
- <!-- 
-		<dependency>
+ 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
@@ -70,8 +67,7 @@
 			<groupId>org.springframework.amqp</groupId>
 			<artifactId>spring-rabbit</artifactId>
 		</dependency>
- -->
-		<dependency>
+ 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>

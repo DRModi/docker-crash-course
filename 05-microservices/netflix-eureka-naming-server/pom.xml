@@ -5,7 +5,7 @@
 
 	<groupId>com.in28minutes.microservices</groupId>
 	<artifactId>07-netflix-eureka-naming-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT-DCR</version>
 	<packaging>jar</packaging>
 
 	<name>netflix-eureka-naming-server</name>

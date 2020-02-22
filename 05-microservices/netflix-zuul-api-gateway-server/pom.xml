@@ -5,7 +5,7 @@
 
 	<groupId>com.in28minutes.microservices</groupId>
 	<artifactId>08-netflix-zuul-api-gateway-server</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT-DCR</version>
 	<packaging>jar</packaging>
 
 	<name>netflix-zuul-api-gateway-server</name>
@@ -105,7 +105,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>in28min/${project.name}</repository>
+					<repository>drmodi/${project.name}</repository>
 					<tag>${project.version}</tag>
 					<skipDockerInfo>true</skipDockerInfo>
 				</configuration>
